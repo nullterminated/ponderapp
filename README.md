@@ -12,6 +12,6 @@
     2. cd womodular
     3. mvn clean install
 3. Check out and build this project in eclipse or on the command line.
-
+    1. In eclipse, you should be able to right click on ponderapp(modular).launch and Run as/Debug as the application.
 
 	
