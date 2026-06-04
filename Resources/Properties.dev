@@ -1,0 +1,6 @@
+WOAutoOpenInBrowser=true
+
+log4j.logger.er.transaction.adaptor.EOAdaptorDebugEnabled=DEBUG
+log4j.logger.er.directtoweb.rules.ERD2WTraceRuleFiringEnabled=DEBUG
+log4j.logger.com.webobjects.directtoweb.ERD2WUtilities=DEBUG
+log4j.logger.er.extensions.ERXAdaptorChannelDelegate.sqlLogging=DEBUG
