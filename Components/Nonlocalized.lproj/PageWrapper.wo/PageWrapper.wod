@@ -56,3 +56,7 @@ TimeZoneDetector: ERXTimeZoneDetector {
 BreadCrumbTrail: R2DBreadCrumbTrail {
 	localContext = d2wContext;
 }
+
+MuJS: ERXJavaScript {
+	filename = "js/mu.js";
+}
