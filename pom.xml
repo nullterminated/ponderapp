@@ -133,6 +133,7 @@
 		</plugins>
 	</build>
 	<dependencies>
+		<!-- Wonder frameworks -->
 		<dependency>
 			<groupId>io.github.wocommunity.wonder.core</groupId>
 			<artifactId>erextensions</artifactId>
@@ -149,16 +150,6 @@
 			<version>${wonder.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>io.github.wocommunity.wonder.plugins</groupId>
-			<artifactId>h2plugin</artifactId>
-			<version>${wonder.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<version>2.4.240</version>
-		</dependency>
-		<dependency>
 			<groupId>io.github.wocommunity.wonder.d2w</groupId>
 			<artifactId>err2d2w</artifactId>
 			<version>${wonder.version}</version>
@@ -168,6 +159,28 @@
 			<artifactId>javawoextensions</artifactId>
 			<version>${wonder.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>io.github.wocommunity.wonder.woadaptors</groupId>
+			<artifactId>vertxwoadaptor</artifactId>
+			<version>${wonder.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.github.wocommunity.wonder.misc</groupId>
+			<artifactId>erpersistentsessionstorage</artifactId>
+			<version>${wonder.version}</version>
+		</dependency>
+		<!-- Database dependencies -->
+		<dependency>
+			<groupId>io.github.wocommunity.wonder.plugins</groupId>
+			<artifactId>h2plugin</artifactId>
+			<version>${wonder.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>2.4.240</version>
+		</dependency>
+		<!-- modular WebObjects -->
 		<dependency>
 			<groupId>org.wocommunity</groupId>
 			<artifactId>wonder-modular-foundation</artifactId>
@@ -207,16 +220,6 @@
 			<groupId>org.wocommunity</groupId>
 			<artifactId>wonder-modular-directtoweb</artifactId>
 			<version>[1.0.0,)</version>
-		</dependency>
-		<dependency>
-			<groupId>io.github.wocommunity.wonder.woadaptors</groupId>
-			<artifactId>vertxwoadaptor</artifactId>
-			<version>${wonder.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>io.github.wocommunity.wonder.misc</groupId>
-			<artifactId>erpersistentsessionstorage</artifactId>
-			<version>${wonder.version}</version>
 		</dependency>
 	</dependencies>
 </project>
