@@ -27,6 +27,16 @@
 				<targetPath>META-INF/webobjects/Resources</targetPath>
 				<filtering>false</filtering>
 				<directory>Resources</directory>
+				<excludes>
+					<exclude>log4j2.properties</exclude>
+				</excludes>
+			</resource>
+			<!-- these files need to be directly in target/classes -->
+			<resource>
+				<directory>Resources</directory>
+				<includes>
+					<include>log4j2.properties</include>
+				</includes>
 			</resource>
 			<resource>
 				<targetPath>META-INF/webobjects/WebServerResources</targetPath>
@@ -220,6 +230,17 @@
 			<groupId>org.wocommunity</groupId>
 			<artifactId>wonder-modular-directtoweb</artifactId>
 			<version>[1.0.0,)</version>
+		</dependency>
+		<!-- logging -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-slf4j2-impl</artifactId>
+			<version>2.26.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.26.0</version>
 		</dependency>
 	</dependencies>
 </project>

@@ -1,6 +1,7 @@
 open module ponderapp {
 	requires com.h2database;
 	requires org.slf4j;
+	requires org.apache.logging.log4j.core;
 	requires transitive org.wocommunity.webobjects.foundation;
 	requires transitive org.wocommunity.webobjects.eocontrol;
 	requires transitive org.wocommunity.webobjects.eoaccess;
